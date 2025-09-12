@@ -18,7 +18,7 @@ header {
     align-items: center;
     width: 100%;
     min-height: 120px !important;
-    background-color: rgb(122, 255, 198);
+    background-color: rgb(193, 218, 185);
 }
 
 .title {
@@ -79,7 +79,7 @@ main {
     align-items: center;
     justify-content: space-between;
     width: 60%;
-    background-color: rgb(30, 61, 61);
+    background-color: rgb(193, 218, 185);
     border-radius: 20px;
 }
 
@@ -139,7 +139,7 @@ footer {
     color: white;
     width: 100%;
     min-height: 80px !important;
-    background-color: rgb(14, 56, 56);
+    background-color:rgb(193, 218, 185);
 }
 
 .copy_right_text {
