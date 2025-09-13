@@ -5,7 +5,7 @@ let arrLengthOutput = 0;
 
 // Funktion zum Laden der JSON-Daten
 function loadImagesFromJSON() {
-    return fetch('./path/to/your/images.json')  // Pfad zur JSON-Datei
+    return fetch('images.json')  // Pfad zur JSON-Datei
         .then(response => response.json())       // JSON parsen
         .then(data => {
             myImgs = data.images;                // Array 'images' aus JSON extrahieren
