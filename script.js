@@ -6,7 +6,7 @@ let arrLengthOutput = 0;
 // Funktion zum Laden der JSON-Daten
 function loadImagesFromJSON() {
     const jsonUrl = 'https://raw.githubusercontent.com/StefanKaelin90/CatFlap/main/images.json';
-    return fetch('./images.json')  // Pfad zur JSON-Datei
+    return fetch(jsonUrl)  // Pfad zur JSON-Datei
         .then(response => response.json())       // JSON parsen
         .then(data => {
             myImgs = data.images;                // Array 'images' aus JSON extrahieren
